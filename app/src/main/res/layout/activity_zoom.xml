@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".zoom">
+    <ImageView
+        android:background="#999"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.7"
+        android:padding="8dp"
+        android:src="@color/colorPrimaryDark"
+        android:id="@+id/zoomimage"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#999"
+        android:textStyle="normal"
+        android:padding="7dp"
+        android:textColor="#705"
+        android:layout_margin="10dp"
+        android:id="@+id/sanskritname"
+
+        android:text="Sanskrit Name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#999"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textStyle="normal"
+        android:textColor="#505"
+        android:id="@+id/engname"
+        android:layout_alignBottom="@id/sanskritname"
+        android:text="English Name"/>
+</LinearLayout>
