@@ -8,8 +8,9 @@
             android:layout_height="170dp"
             android:layout_margin="6dp"
             android:id="@+id/imageview"
+            android:src="@drawable/yoga2"
+            android:background="@drawable/yoga2"
             android:scaleType="fitXY"
-            android:background="@color/colorPrimaryDark"
         />
 
 </LinearLayout>

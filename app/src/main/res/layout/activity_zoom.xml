@@ -8,12 +8,13 @@
     android:weightSum="10"
     tools:context=".zoom">
     <ImageView
-        android:background="#999"
+        android:background="@drawable/yoga1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9.7"
         android:padding="8dp"
-        android:src="@color/colorPrimaryDark"
+        android:src="@drawable/yoga1"
+        android:scaleType="fitXY"
         android:id="@+id/zoomimage"
         />
     <TextView
